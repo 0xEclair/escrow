@@ -182,3 +182,5 @@ const alice = async () => {
 
   console.log("");
 };
+
+alice()
