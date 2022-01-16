@@ -1,0 +1,6 @@
+==============================================================================
+pubkey: FzK8NjjADYWS6h5kqpYuC5AQScFVctJpwp5Azh7RdsbD
+==============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+grow edit cattle consider ball venture lend impulse edge tape immense mountain
+==============================================================================

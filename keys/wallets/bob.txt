@@ -1,0 +1,6 @@
+================================================================================
+pubkey: AymSdaSxUD3xS8Dqaq6ZCFRGKfN9NtVATB15fPuQJcP3
+================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+crumble member buffalo blood assist grant track room decline daughter drift wood
+================================================================================

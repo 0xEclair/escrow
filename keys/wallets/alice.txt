@@ -1,0 +1,6 @@
+==================================================================================
+pubkey: 9qY5YWX6KaLUbmSC7QD3F1nTwTRRPUAUXK3L9XU2cufq
+==================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+real special burden cash forest beach involve predict abstract right junior daring
+==================================================================================
