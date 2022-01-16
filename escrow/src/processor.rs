@@ -11,8 +11,7 @@ use solana_program::{
     sysvar::Sysvar,
     program_pack::{
         Pack,
-        IsInitialized,
-        Sealed
+        IsInitialized
     }
 };
 use solana_program::program::invoke;

@@ -1,4 +1,3 @@
-use std::mem::transmute;
 use arrayref::{
     array_mut_ref,
     array_ref,

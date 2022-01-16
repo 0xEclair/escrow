@@ -2,7 +2,6 @@ use solana_program::{
     account_info::AccountInfo,
     entrypoint,
     entrypoint::ProgramResult,
-    msg,
     pubkey::Pubkey
 };
 use crate::processor::Processor;
@@ -15,6 +14,6 @@ fn process_instruction(
     Processor::process(program_id, accounts, instruction_data)
 }
 
-entrypoint!(process_instruction());
+entrypoint!(process_instruction);
 
 // 试用程序，了解爱丽丝的交易
