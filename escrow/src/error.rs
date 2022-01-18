@@ -8,7 +8,10 @@ pub enum EscrowError {
     FeiFaZhiLing,
 
     #[error("not rent exempt")]
-    NotRentExempt
+    NotRentExempt,
+
+    #[error("yu qi shu e bu yi zhi")]
+    ExpectedAmountMismatch
 }
 
 impl From<EscrowError> for ProgramError {

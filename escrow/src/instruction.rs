@@ -6,6 +6,9 @@ use crate::error::EscrowError;
 pub enum Instruction {
     InitEscrow {
         amount: u64
+    },
+    Exchange {
+        amount: u64
     }
 }
 
@@ -15,6 +18,9 @@ impl Instruction {
 
         Ok(match tag {
             0 => Self::InitEscrow {
+                amount: Self::unpack_amount(rest)?
+            },
+            1 => Self::Exchange {
                 amount: Self::unpack_amount(rest)?
             },
             _ => return Err(EscrowError::FeiFaZhiLing.into())
